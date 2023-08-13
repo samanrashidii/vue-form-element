@@ -1,6 +1,19 @@
 {
   "name": "vue-form-element",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js",
+    "./styles.css": "./dist/style.css"
+  },
+  "browser": {
+    "./styles.css": "./dist/style.css"
+  },
+  "types": "./dist/VueFormElement.d.ts",
+  "license": "Apache-2.0",
+  "files": [
+    "dist"
+  ],
   "private": true,
   "scripts": {
     "dev": "vite",

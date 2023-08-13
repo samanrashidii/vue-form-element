@@ -232,4 +232,12 @@
     }
   }
 </script>
+
+<style scoped>
+
+  input {
+    height: 35px;
+  }
+
+</style>
   
